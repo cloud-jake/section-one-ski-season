@@ -10,18 +10,18 @@
         "type": "STRING",
         "mode": "REQUIRED",
         "description": "Unique Competition Code KEY"
-    }, 
-    {
-      "name": "Competition_Name",
-      "type": "STRING",
-      "mode": "REQUIRED",
-      "description": "Name of Comopetition"
     },
     {
-      "name": "Competition_Date",
-      "type": "STRING",
-      "mode": "REQUIRED",
-      "description": "Date of Competition"
+        "name": "Competition_Name",
+        "type": "STRING",
+        "mode": "REQUIRED",
+        "description": "Name of Comopetition"
+    },
+    {
+        "name": "Competition_Date",
+        "type": "STRING",
+        "mode": "REQUIRED",
+        "description": "Date of Competition"
     },
     {
         "name": "Competition_Discipline",
@@ -54,15 +54,15 @@
         "description": "Unique Competition Code"
     },
     {
-        "name": "Competition_Division",
+        "name": "Competition_League",
         "type": "STRING",
         "mode": "NULLABLE",
-        "description": "Division of Comopetition"
+        "description": "League of Competition | ex: A, B, or S"
     },
     {
         "name": "Competition_URL",
         "type": "STRING",
-        "mode": "REQUIRED",
+        "mode": "NULLABLE",
         "description": "USSA URL of Competition"
     }
-  ]
+]
