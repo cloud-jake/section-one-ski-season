@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Season_Code",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": "Season Code"
+  },
+  {
+    "name": "Season_Name",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": "Season Name"
+  }
+]

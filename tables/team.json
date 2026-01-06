@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Team_Code",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": "Team Code"
+  },
+  {
+    "name": "Team_Name",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": "Team Name"
+  }
+]

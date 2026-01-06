@@ -1,0 +1,68 @@
+[
+    {
+        "name": "Competition_Season",
+        "type": "STRING",
+        "mode": "REQUIRED",
+        "description": "Competition Season"
+    },
+    {
+        "name": "Competition_Code",
+        "type": "STRING",
+        "mode": "REQUIRED",
+        "description": "Unique Competition Code KEY"
+    }, 
+    {
+      "name": "Competition_Name",
+      "type": "STRING",
+      "mode": "REQUIRED",
+      "description": "Name of Comopetition"
+    },
+    {
+      "name": "Competition_Date",
+      "type": "STRING",
+      "mode": "REQUIRED",
+      "description": "Date of Competition"
+    },
+    {
+        "name": "Competition_Discipline",
+        "type": "STRING",
+        "mode": "REQUIRED",
+        "description": "Discipline of Comopetition"
+    },
+    {
+        "name": "Competition_Gender",
+        "type": "STRING",
+        "mode": "REQUIRED",
+        "description": "Gender of Competition"
+    },
+    {
+        "name": "Competition_Vertical",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Vertical of Competition"
+    },
+    {
+        "name": "Competition_Location",
+        "type": "STRING",
+        "mode": "REQUIRED",
+        "description": "Location of Competition"
+    },
+    {
+        "name": "Competition_Sport",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Unique Competition Code"
+    },
+    {
+        "name": "Competition_Division",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Division of Comopetition"
+    },
+    {
+        "name": "Competition_URL",
+        "type": "STRING",
+        "mode": "REQUIRED",
+        "description": "USSA URL of Competition"
+    }
+  ]

@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Results_Season_Code",
+        "type": "STRING",
+        "mode": "REQUIRED",
+        "description": "Competition Season"
+    },
+    {
+        "name": "Results_Competition_Code",
+        "type": "STRING",
+        "mode": "REQUIRED",
+        "description": "Unique Competition Code KEY"
+    },
+    {
+        "name": "Results_Finish",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Overall Finish Number"
+    },
+    {
+        "name": "Results_Fullname",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Full Name"
+    },
+    {
+        "name": "Results_Member_Code",
+        "type": "STRING",
+        "mode": "REQUIRED",
+        "description": "Concatenated string of FirstName | LastName | School Code"
+    },
+    {
+        "name": "Results_BirthYear",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Birth Year of Racer"
+    },
+    {
+        "name": "Results_DivisionCountry",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Division or Country"
+    },
+    {
+        "name": "Results_FirstRun",
+        "type": "STRING",
+        "mode": "REQUIRED",
+        "description": "First Run Time"
+    },
+    {
+        "name": "Results_SecondRun",
+        "type": "STRING",
+        "mode": "REQUIRED",
+        "description": "Second Run Time"
+    },
+    {
+        "name": "Results_RaceTime",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Combined Time"
+    },
+    {
+        "name": "Results_RacePoints",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Race Points"
+    },
+    {
+        "name": "Results_PtResults",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Result Points "
+    }
+]

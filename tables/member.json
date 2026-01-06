@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Member_Code",
+        "type": "STRING",
+        "mode": "REQUIRED",
+        "description": "Concatenated string of FirstName | LastName | School Code"
+    },
+    {
+        "name": "Member_FirstName",
+        "type": "STRING",
+        "mode": "REQUIRED",
+        "description": "First Name of Racer"
+    },
+    {
+        "name": "Member_LastName",
+        "type": "STRING",
+        "mode": "REQUIRED",
+        "description": "Last Name of Racer"
+    },
+    {
+        "name": "Member_DOB",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Date of Birth of Racer"
+    },
+    {
+        "name": "Member_Gender",
+        "type": "STRING",
+        "mode": "REQUIRED",
+        "description": "Gender"
+    }
+]
