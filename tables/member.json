@@ -28,5 +28,11 @@
         "type": "STRING",
         "mode": "REQUIRED",
         "description": "Gender"
+    },
+    {
+        "name": "Member_Team_Code",
+        "type": "STRING",
+        "mode": "REQUIRED",
+        "description": "Team Code"
     }
 ]
